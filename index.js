@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
 import NavBar from './NavBar';
-import Telecast from './Telecast';
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,7 +22,6 @@ class App extends Component {
     return (
       <div>
         <NavBar/>
-        <Telecast/>
       </div>
     );
   }
