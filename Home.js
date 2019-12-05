@@ -30,10 +30,10 @@ export default function Home () {
     <Link to ="/Samsung">Samsung</Link>
     </li>
     </ul>
-    <switch>
+    <Switch>
     <Route path="/:id" children ={<Child/>}>
     </Route>
-    </switch>
+    </Switch>
     </Router>
     </div>
   )
